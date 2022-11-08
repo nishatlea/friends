@@ -49,6 +49,7 @@ class FriendsController < ApplicationController
 
   # DELETE /friends/1 or /friends/1.json
   def destroy
+    puts "111111111111"
     @friend.destroy
 
     respond_to do |format|
